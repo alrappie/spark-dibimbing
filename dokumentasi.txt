@@ -1,0 +1,16 @@
+Alur Kerja DAG Airflow:
+
+extract data dari postgresql -> transform data -> load data ke postgresql dalam 1 DAG file dan 1 Task
+
+Proses ETL:
+- melakukan ekstrak data dari csv yang sudah dijadikan table (retail)
+- melakukan konfigurasi antara pyspark dengan postgresql
+- melakukan ekstraksi file yang akan digunakan
+- melakukan transform seperti agregrasi
+- melakukan load dari hasil transform yang telah dilakukan
+
+Analisis Batch yang dilakukan:
+- Customer BEHAVIOR
+- CHURN ANALYSIS (CUSTOMERS WHO HAVEN'T PURCHASED IN LAST 6 MONTHS)
+- TOP-SELLING PRODUCT
+- AVERAGE ORDER VALUE PER COUNTRY
